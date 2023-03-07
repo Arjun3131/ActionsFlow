@@ -24,7 +24,8 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run:  mvn clean test
+      path: /home/ec2-user/ActionsFlow/sample-java-app
+      run:  mvn clean install
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1
