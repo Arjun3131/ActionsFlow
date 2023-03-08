@@ -35,3 +35,37 @@ sudo ufw allow 8080
 sudo ufw allow OpenSSH
 sudo ufw enable
 sudo ufw status
+git -version
+git --version
+git status
+git add .
+git commit -m "few"
+git push
+git push origin 
+git push origin https://github.com/Arjun3131/ActionsFlow.git
+ls
+git push -f -u origin https://github.com/Arjun3131/ActionsFlow.git
+Git remote add master https://github.com/Arjun3131/ActionsFlow.git
+git remote add master https://github.com/Arjun3131/ActionsFlow.git
+git push
+git push -f -u origin https://github.com/Arjun3131/ActionsFlow.git
+git remote remove master
+git push -u origin master
+git remote set-url origin https://github.com/Arjun3131/ActionsFlow.git
+git remote set-url origin main https://github.com/Arjun3131/ActionsFlow.git
+git checkout newbranch
+git checkout -b newbranch
+ls
+git add .
+git status
+git push
+git remote add newbranch https://github.com/Arjun3131/ActionsFlow.git
+git push newbranch
+ls
+ls -la
+cd /var/lib/jenkins/
+ls
+ls -la
+git.exe ls-remote URL
+sudo git.exe ls-remote 
+sudo git.exe ls-remote https://github.com/Arjun3131/ActionsFlow.git
